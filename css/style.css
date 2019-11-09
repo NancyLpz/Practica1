@@ -1,0 +1,29 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;}
+
+nav{
+    height: 50px;
+    width: 100%;
+    background: #d35400;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+#lista_menu{
+    list-style: none;
+}
+#lista_menu > li{
+    display: inline-block;
+    color: #ecf0f1;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#lista_menu > li >a:hover{
+   /*transition: 1s;
+    color: #1abc9c;*/
+    border-bottom: 1px solid #ecf0f1;
+}
+#lista_menu > li a{
+    text-decoration: none;
+    color: #ecf0f1;
+}

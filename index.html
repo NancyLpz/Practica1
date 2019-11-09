@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"> <!---Define idioma "ingles"--->
+<head>
+    <meta charset="UTF-8"> <!---Acentos--->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!---Responsive--->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!---Compatible con navegador Internet Explore--->
+    <title>Taller de HTML5</title> <!---Título de la pagina--->
+</head>
+<body>
+    <div>   
+    <h1>Gracias</h1> <!---Titulos--->
+    <h2>Hola a todos</h2>
+    </div> <!---Ordenar parrafos--->
+    <div>
+        <p>
+            <span></span> <!---No agregar un parrafo--->
+            <strong></strong> <!---Negritas--->
+            <i></i> <!---Cursivas--->
+            <i>Binvenidos</i>, es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. 
+            <br/>El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". 
+            <br/><strong>Estos textos hacen parecerlo un español que se puede leer.</strong>
+        </p>
+    </div>
+    <div>
+        <!---Etiquetas de listas normales "no ordenada"--->
+        <ul>
+        <!---Etiquetas "no ordenadas"--->
+        <li>Informatica</li> 
+        <li>Ingles</li> 
+          </ul>
+        <!---Etiquetas "ordenadas"--->
+        <ol>
+            <li>Matematicas</li>
+            <li>Ciencias</li>
+            <li>Geografia</li>
+        </ol>
+    </div>
+    <div>
+        <a href="http://www.itss.edu.mx/" target="blank">Clic</a>
+        <!---Agregar una imagen--->
+        <img 
+        src="http://www.noticias.unsl.edu.ar/wp-content/uploads/2019/03/depositphotos_79718838-stock-photo-computer-technology-1000x600.jpg" 
+        width="300" 
+        height="250" 
+        alt="Imagen 1"/>  
+        <!---Agregar tamaño y nombre imagen--->
+    </div>
+    <section>
+        <form method="GET"> <!---Usar para formularios--->
+            <div>
+            <input type="text" name="Nombre" placeholder="Nombre" value="" required> 
+            <input type="Number" name="Numero" placeholder="Numeros" max="10" min="1" value="" required>
+            <input type="date" name="Fecha" required> 
+            <input type="checkbox" name="Seleccion"> Alto
+            <input type="checkbox"> Bajo
+        </div>
+        <div>
+            <select> name="select_list"
+                <option value="">Seleccione una opcion</option>
+                <option value="">CSS</option>
+                <option value="">HTML</option>
+                <option value="">PHP</option>
+            </select>
+        </div>
+        <input type="submit" value="Enviar" />
+        <!--<button type="submit">Enviar</button>--->
+        </form>
+    </section>
+</body>
+</html>
